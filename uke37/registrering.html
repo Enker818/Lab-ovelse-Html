@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registering</title>
+    <section>
+        <h2>Skjema</h2>
+        <form method="post" id="Author">
+            <label for="Name">Navn:</label>
+            <input type="text" name="Name" placeholder="Navn" id="Author"" maxlength="25" pattern="[A-Za-zæøåÆØÅ ]{2,}" required>
+        </form>
+        <form method="post" id="Author">
+            <label for="Mail">Email Adress:</label>
+            <input type="email" name="Name" placeholder="Mailen din" id="Author" maxlength="20" required>
+        </form>
+        <form method="post" id="Author">
+            <label for="Pass">Passord</label>
+            <input type="text" name="Pass" placeholder="Passord ditt" id="Author" minlength="8" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" required>
+        </form>
+        <form method="post" id="Author">
+            <label for="Age">Alder:</label>
+            <input type="number" min="18" max="99" required name="År" placeholder="År" id="Author" >
+            <label for="Tf">Telefon Nummer:</label>
+            <input type="number" name="Pass" placeholder="Nummer ditt" id="Author" minlength="8" pattern="[0-9]{8,12}" required>
+        </form>
+        <form method="post" id="Author">
+            <label for="Age">Fødseldato:</label>
+            <input type="date" max="2023-12-31" name="Fødsel" id="Author" minlength="8" Required>
+            <label for="Kjønn">Kjønn:
+                Man
+               <input type="radio" name="sex" required>
+                Kvinne
+                <input type="radio" name="sex" required>
+                Annet
+                <input type="radio" name="sex" required>
+            </label>
+        </form>
+        <form method="post" id="Author">
+            <label>
+                Land
+                <select name="Fra">
+                    <option value="Norge">Norge</option>
+                    <option value="Sverige">Sverige</option>
+                    <option value="Danmark">Danmark</option>
+                </select>
+            </label>
+        </form>
+        <form method="post" id="Author">
+            <label for="Legal">Kryss for å bli enig med Personvern:</label>
+            <input type="checkbox" name="Legal" id="Author" required>
+            <label for="done"></label>
+            <input type="submit" value="Send">
+        </form>
+            </label>
+        </form>
+    </section>
+</head>
+<body>
+    
+</body>
+</html>
