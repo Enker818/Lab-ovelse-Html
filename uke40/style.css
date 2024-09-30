@@ -9,6 +9,39 @@ h1{
     color: #fff;
     font-size: 50px;
   }
-nav{
-    display: inline;
+
+  .meny{
+    display: flex;
+    background-color: #333333;
+    width: 50%;
+    margin: 0%;
+  }
+
+ .meny li{
+    list-style-type:none;
+    margin: 5px 15px;
+    padding: 10px;
+    overflow: hidden;
+    color: white;
+
+    
+ }
+
+.meny li a{
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+    color: white;
+
+
 }
+
+
+.card h3{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    margin: 0%;
+    }
+
+
