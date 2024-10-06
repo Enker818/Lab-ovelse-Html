@@ -19,12 +19,9 @@ h1{
 
  .meny li{
     list-style-type:none;
-    margin: 5px 15px;
     padding: 10px;
     overflow: hidden;
-    color: white;
-
-    
+    color: white;  
  }
 
 .meny li a{
@@ -32,16 +29,20 @@ h1{
     padding: 16px;
     text-decoration: none;
     color: white;
-
-
 }
 
+.card{
+    display: block;
+    }
+.card article{
+  display: block;
+  margin-bottom: 10px 0;
+}
 
 .card h3{
-    display: flex;
-    justify-content: space-around;
-    width: 100%;
-    margin: 0%;
-    }
+  display: inline-block;
+  margin-right: 20px;
+}
+
 
 
