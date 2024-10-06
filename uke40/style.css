@@ -33,16 +33,39 @@ h1{
 
 .card{
     display: block;
+    width: 100%;
+    margin-bottom: 20px;
     }
+
 .card article{
-  display: block;
-  margin-bottom: 10px 0;
+  display: flex;
+  margin-bottom: 20px;
+  flex-wrap: wrap;
 }
 
 .card h3{
   display: inline-block;
-  margin-right: 20px;
+  background-color:white; 
+    color: black; 
+    padding: 50px 40px; 
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px; 
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2); 
+    cursor: pointer; 
+    transition: background-color 0.3s ease;
+    margin: 10px;
 }
+
+.card h3 a{
+  text-decoration: none;
+  color: inherit;
+}
+
+.aside aside{
+  
+}
+  
 
 
 
