@@ -13,7 +13,7 @@ h1{
   .meny{
     display: flex;
     background-color: #333333;
-    width: 50%;
+    width: 70%;
     margin: 0%;
   }
 
@@ -62,10 +62,32 @@ h1{
   color: inherit;
 }
 
-.aside aside{
-  
+@media (max-width: 768px) {
+  main {
+      flex-direction: column;
+  }
+
+  .card, .meny {
+      margin: 0;
+      margin-bottom: 20px;
+  }
 }
-  
+
+/* For very small screens (e.g., mobile devices) */
+@media (max-width: 480px) {
+  .card, .meny {
+      padding: 10px;
+      font-size: 14px;
+  }
+}
+
+.aside aside{
+  flex: 1;
+  padding: 20px;
+  margin: 10px;
+}
+
+
 
 
 
