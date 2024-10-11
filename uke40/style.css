@@ -1,8 +1,9 @@
 header{
     background-image: url("https://cdn-yams.godt.no/api/v1/godt-recipe/images/cc/cca1ee47-8311-4224-a9d9-c077b9f7bca4?rule=w4000_auto");
-    padding: 70px;
+    padding: 100px;
     text-align: center;
     color: white;
+    background-size: cover;
 }
 h1{
     font-weight: bold;
@@ -13,8 +14,10 @@ h1{
   .meny{
     display: flex;
     background-color: #333333;
-    width: 70%;
+    width: 100%;
     margin: 0%;
+    justify-content: center;
+    text-align: center;
   }
 
  .meny li{
@@ -22,6 +25,7 @@ h1{
     padding: 10px;
     overflow: hidden;
     color: white;  
+    width: 100%;
  }
 
 .meny li a{
@@ -45,16 +49,14 @@ h1{
 
 .card h3{
   display: inline-block;
-  background-color:white; 
-    color: black; 
+  background-color:#333333;
+    color: white; 
     padding: 50px 40px; 
     text-align: center;
     text-decoration: none;
     border-radius: 5px; 
-    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2); 
     cursor: pointer; 
-    transition: background-color 0.3s ease;
-    margin: 10px;
+    margin: 20px;
 }
 
 .card h3 a{
@@ -62,30 +64,45 @@ h1{
   color: inherit;
 }
 
-@media (max-width: 768px) {
-  main {
-      flex-direction: column;
-  }
+#container {
+  flex-wrap: wrap;
+  display: flex;
+  justify-content: space-between;
 
-  .card, .meny {
-      margin: 0;
-      margin-bottom: 20px;
-  }
 }
 
-/* For very small screens (e.g., mobile devices) */
-@media (max-width: 480px) {
-  .card, .meny {
-      padding: 10px;
-      font-size: 14px;
-  }
-}
-
-.aside aside{
+aside {
   flex: 1;
   padding: 20px;
-  margin: 10px;
+  background-color: #f4f4f4;
+  margin-left: 20px;
 }
+
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
+
+footer a {
+  color: white;
+  text-decoration: underline;
+}
+
+.google{
+  display: inline-block;
+  background-color:#333333;
+    color: wheat; 
+    padding: 50px 40px; 
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;  
+    cursor: pointer; 
+    margin: 20px;
+}
+
+
 
 
 
