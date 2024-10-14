@@ -18,6 +18,7 @@ h1{
     margin: 0%;
     justify-content: center;
     text-align: center;
+    justify-content: center
   }
 
  .meny li{
@@ -39,6 +40,7 @@ h1{
     display: block;
     width: 100%;
     margin-bottom: 20px;
+    justify-content: center
     }
 
 .card article{
@@ -67,8 +69,6 @@ h1{
 #container {
   flex-wrap: wrap;
   display: flex;
-  justify-content: space-between;
-
 }
 
 aside {
